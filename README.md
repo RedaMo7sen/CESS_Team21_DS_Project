@@ -23,22 +23,23 @@ open new terminal in vsCode
 or open CMD and cd to the cloned repo:
 Execute the following command lines in order in a two separate terminals one for client folder and the other is for server folder :
 #### Client Side:
-cd cient
-1- npm start
-2- npm i quil
-5- npm i socket.io-client
-6- npm i uuid
+cd cient <br/>
+1- npm start <br/>
+2- npm i quil <br/>
+5- npm i socket.io-client <br/>
+6- npm i uuid <br/>
 7- npm i react-router-dom
 
 #### Server Side:
-cd server
-3- npm i socket.io
-4- npm i --dev-start nodemon
-8- npm i mongoose 
+cd server <br/>
+3- npm i socket.io <br/>
+4- npm i --dev-start nodemon <br/>
+8- npm i mongoose <br/>
 
 ### After Installing Those libraries Write These Commands to Open the Appplication:
-9- npm run serverStart  (In Server Folder).
-10-npm start            (In Client Server).
+
+9- npm run serverStart  (In Server Folder).<br/>
+10-npm start            (In Client Server).<br/>
 
 
 
