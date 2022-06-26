@@ -7,6 +7,7 @@ const mongodbUrl ="mongodb+srv://redamohsen:texteditor1234@cluster0.4rr3koo.mong
 mongoose.connect(mongodbUrl, { useNewUrlParser: true, useUnifiedTopology: true }).catch((err) => console.log(err));
 
 
+
 const io = require("socket.io")(3001, { //set port number of server to 3001
   cors: {
     origin: "http://localhost:3000", //cleint address
