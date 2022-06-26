@@ -1,13 +1,11 @@
 const mongoose = require("mongoose") 
 const Document = require("./Document")
 
-//mongoDB connection function  and set our database name to "/google-doc"
-mongoose.connect("mongodb://localhost/google-doc", { 
-  useNewUrlParser: true,
-  useUnifiedTopology: true, //these settings here are just
-  useFindAndModify: false, // for backwards compatibility no matter what thy are
-  useCreateIndex: true,
-})
+// Creating an online database
+const mongodbUrl ="mongodb+srv://redamohsen:texteditor1234@cluster0.4rr3koo.mongodb.net/?retryWrites=true&w=majority";
+
+mongoose.connect(mongodbUrl, { useNewUrlParser: true, useUnifiedTopology: true }).catch((err) => console.log(err));
+
 
 const io = require("socket.io")(3001, { //set port number of server to 3001
   cors: {
