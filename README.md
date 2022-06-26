@@ -10,7 +10,7 @@
 It’s a client-Server multi-user distributed text editor project built with React, Quill, Socket, and MongoDB. 
 
 ## If you want to test the Text Editor on a global host just click on the site below:
-https://team21-te-fe.herokuapp.com/documents/32ec36eb-fb50-4628-b9d7-860348c37b75
+https://team21-te-fe.herokuapp.com/
 
 ## How to Run:
 ### Required Applications:
