@@ -11,16 +11,16 @@ It’s a client-Server multi-user distributed text editor project built with Rea
 
 ## How to Run:
 ### Required Applications:
-First you must install node.js(https://nodejs.org/en/download/)
+First you must install node.js(https://nodejs.org/en/download/)<br/>
 and download mongodb (https://www.mongodb.com/try/download/community)
 
 ### Cloning Repo:
-$ git clone https://github.com/RedaMo7sen/CESS_Team21_DS_Project.git
+$ git clone https://github.com/RedaMo7sen/CESS_Team21_DS_Project.git <br/>
 $ code CESS_Team21_DS_Project
 
 ### Downloading Required Libraries
-open new terminal in vsCode 
-or open CMD and cd to the cloned repo:
+open new terminal in vsCode <br/>
+or open CMD and cd to the cloned repo:<br/>
 Execute the following command lines in order in a two separate terminals one for client folder and the other is for server folder :
 #### Client Side:
 cd cient <br/>
