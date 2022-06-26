@@ -2,7 +2,7 @@
 # CSE354-Distributed Systems
 ## Team Members:
 ### Reda Mohsen Reda 18P5141
-### Noor Eldin Talaat 18P3826
+### Noor Eldin Talaat Ezzat 18P3826
 ### Mohammed Makram Mahrous 19P2645
 ### Youssef Baher Roushdy Afifi 17P6077
 
