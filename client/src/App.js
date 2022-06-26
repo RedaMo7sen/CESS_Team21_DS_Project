@@ -7,6 +7,7 @@ import {
 } from "react-router-dom"
 import { v4 as uuidV4 } from "uuid"
 
+//application function to make routing
 function App() {
   return (
     <Router>
