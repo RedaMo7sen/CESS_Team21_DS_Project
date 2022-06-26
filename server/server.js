@@ -1,8 +1,8 @@
 const mongoose = require("mongoose") 
 const Document = require("./Document")
 
-//mongoDB connection function  and set our database name to "/google-doc"
-mongoose.connect("mongodb://localhost/google-doc", { 
+//mongoDB connection function  and set our database name to "/text_editor"
+mongoose.connect("mongodb://localhost/text_editor", { 
   useNewUrlParser: true,
   useUnifiedTopology: true, //these settings here are just
   useFindAndModify: false, // for backwards compatibility no matter what thy are
