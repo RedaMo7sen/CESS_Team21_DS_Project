@@ -16,7 +16,7 @@ const io = require("socket.io")(3001, { //set port number of server to 3001
 })
 
 const defaultValue = "" // set default value to new created doc to empty
-//set socket connection 
+//Start listening for socket events 
 io.on("connection", socket => {
   //get data from doc with id
   socket.on("get-document", async documentId => { 
