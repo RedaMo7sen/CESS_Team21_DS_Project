@@ -10,7 +10,7 @@ mongoose.connect(mongodbUrl, { useNewUrlParser: true, useUnifiedTopology: true }
 
 const io = require("socket.io")(3001, { //set port number of server to 3001
   cors: {
-    origin: "http://localhost:3000", //cleint address
+    origin: "http://localhost:3000", 
     methods: ["GET", "POST"], //allow send and receive req
   },
 })
